@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: MooncServe
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/moonc
+    username: moonc
+    password: 123456
+server:
+  port: 2999
